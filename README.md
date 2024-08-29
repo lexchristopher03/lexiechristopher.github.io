@@ -1,1 +1,4 @@
 # lexiechristopher
+
+ assingment 1
+ 
