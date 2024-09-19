@@ -1,0 +1,51 @@
+errors from find_errors.html: (should be 25 total):
+
+line 1- missing <!DOCTYPE html> on first line
+line 6- changed lagunage to lang
+line 7- added special characters line
+line 10- close head tag
+line 12- needs </h1> after welcome text
+line 14- need <p> before paragraph text
+line 22- opening tag doesn't need / - should just be <li>
+line 27- changed </ul> to </ol> to match opening tag
+line 29- need closing tab </p>
+line 31- added alt and height to image tag
+line 31- change image link to correct one- jpg
+line 33- add link close tag to end
+
+line 42- add / to closing tag instead of image tag
+line 43- fix closing tag to </td>
+
+line 49- close table tag
+line 51- fix image link and add size
+line 51- change source to src
+
+line 53- make paragraph text have strike through it
+
+line 55- correct code to make text lightgray
+line 58- add body closing tag
+
+line 61- add html closing tag
+
+21 errors above- need 25
+
+
+
+
+
+errors from find_errors_2.html (should be 15 total):
+1. line 2- move html tag below doctype
+2. line 4- add lang tag
+3. line 5- add special characters tag
+4. line 7- close head tag
+5. line 8- add > to end of body tag
+6. line 9- move welcome message inside body
+7. line 12- add </strong> and </p> to end of paragraph
+8. line 13- close div tag
+9. line 15- fix image and add alt/size
+10. line 15- change href to src for image
+11. line 17- add <h2> to start of big heading
+12. line 19- add <p> infront of text
+13. line 20- make text a comment
+14. line 21- add body closing tag
+15. line 22- fix html close tag
