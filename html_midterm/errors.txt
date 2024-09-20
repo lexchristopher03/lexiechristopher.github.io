@@ -1,31 +1,34 @@
+Group: Lexie Christopher, Katie Rouault
+
 errors from find_errors.html: (should be 25 total):
 
-line 1- missing <!DOCTYPE html> on first line
-line 6- changed lagunage to lang
-line 7- added special characters line
-line 10- close head tag
-line 12- needs </h1> after welcome text
-line 14- need <p> before paragraph text
-line 22- opening tag doesn't need / - should just be <li>
-line 27- changed </ul> to </ol> to match opening tag
-line 29- need closing tab </p>
-line 31- added alt and height to image tag
-line 31- change image link to correct one- jpg
-line 33- add link close tag to end
+1. line 1- missing <!DOCTYPE html> on first line
+2. line 6- changed language to lang
+3. line 7- added special characters line
+4. line 10- close head tag
+5. line 12- needs </h1> after welcome text
+6. line 14- need <p> before paragraph text
+7. line 22- opening tag doesn't need / - should just be <li>
+8. line 27- changed </ul> to </ol> to match opening tag
+9. line 29- need closing tab </p>
+10. line 31- added alt and height to image tag
+11. line 31- change image link to correct one- jpg
+12. line 33- add link close tag to end
+13. line 42- add / to closing tag instead of image tag
+14. line 43- fix closing tag to </td>
+15. line 49- close table tag
+16. line 51- fix image link and add size
+17. line 51- change source to src
+18. line 53- make paragraph text have strike through it
+19. line 55- correct code to make text lightgray
+20. line 59- make button click to link to new page
+21. line 64- close comment correctly
+22. line 66- fix link
+23. line 68- underline text
+24. line 70- change dl to ul(open tag and closing-line 73)
+25. line 74- change to h2 tag
 
-line 42- add / to closing tag instead of image tag
-line 43- fix closing tag to </td>
 
-line 49- close table tag
-line 51- fix image link and add size
-line 51- change source to src
-
-line 53- make paragraph text have strike through it
-
-line 55- correct code to make text lightgray
-line 58- add body closing tag
-
-line 61- add html closing tag
 
 21 errors above- need 25
 
