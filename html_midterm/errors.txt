@@ -30,7 +30,7 @@ errors from find_errors.html: (should be 25 total):
 
 
 
-21 errors above- need 25
+
 
 
 
