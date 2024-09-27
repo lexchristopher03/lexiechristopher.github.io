@@ -37,6 +37,8 @@ h2 {
   a:visited {
     color: #fb6542;
   }
+
+  /* how to make link turn green when hovering over it */
   a:hover{
     color: green;
   }
@@ -45,6 +47,7 @@ h2 {
     text-decoration: none;
   }
 
+/* add boarder around personal information */
   ul{
     background-color:#eeeeee;
     border: 5px solid purple;

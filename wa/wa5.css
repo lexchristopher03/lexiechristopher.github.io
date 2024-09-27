@@ -1,0 +1,104 @@
+/* General styles */
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, sans-serif;
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+/* Styles for the card container */
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red; /* Fixed the 'background-colour' typo */
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+/* Common styles for card header and footer */
+.card header, .card footer {
+  height: 3em;
+  padding: 1em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); /* Default for header */
+}
+
+.card footer {
+  font-size: 15px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)); /* Footer specific */
+  border-radius: 0 0 1.5em 1.5em; /* Specific to footer */
+}
+
+/* Styles for the main business card contents */
+.card article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Styles for the image in the article */
+.card article img {
+  max-height: 100%;
+  float: right; 
+}
+
+/* Remove margin from h2 and p elements */
+h2, p {
+  margin: 0;
+}
+
+/* change font size of gerry name? */
+/* .new_card h2{
+  font-size: 50px;
+} */
+
+
+/* Styles for *Added card container */
+.new_card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: rgb(0, 255, 94); /* Fixed the 'background-colour' typo */
+  border: 0.2em solid blue;
+  border-radius: 1.5em;
+}
+
+/* Common styles for card header and footer */
+.new_card header, .new_card footer {
+  height: 3em;
+  padding: 1em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)); /* Default for header */
+}
+
+.new_card footer {
+  font-size: 15px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)); /* Footer specific */
+  border-radius: 0 0 1.5em 1.5em; /* Specific to footer */
+}
+
+/* Styles for the main business card contents */
+.new_card article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Styles for the image in the article */
+.new_card article img {
+  max-height: 100%;
+  float: right; 
+}
+
+/* Remove margin from h2 and p elements */
+h2, p {
+  margin: 0;
+}
+
+hr {
+  border-color: #08A052;
+}
+
+.card article, .new_card article{
+  color:#ccc
+}
