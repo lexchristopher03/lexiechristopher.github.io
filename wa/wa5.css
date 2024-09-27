@@ -38,21 +38,24 @@ html {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
 }
 
+#chris-mills {
+  font-size: 2em;
+}
+
+
+
 /* Styles for the image in the article */
 .card article img {
   max-height: 100%;
   float: right; 
 }
 
+
 /* Remove margin from h2 and p elements */
 h2, p {
   margin: 0;
 }
 
-/* change font size of gerry name? */
-/* .new_card h2{
-  font-size: 50px;
-} */
 
 
 /* Styles for *Added card container */
@@ -60,8 +63,8 @@ h2, p {
   width: 35em;
   height: 22em;
   margin: 5em auto;
-  background-color: rgb(0, 255, 94); /* Fixed the 'background-colour' typo */
-  border: 0.2em solid blue;
+  background-color: #046835; /* Fixed the 'background-colour' typo */
+  border: 0.2em solid #10C84D;
   border-radius: 1.5em;
 }
 
@@ -74,6 +77,7 @@ h2, p {
 
 .new_card footer {
   font-size: 15px;
+  color: #81E3A1;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)); /* Footer specific */
   border-radius: 0 0 1.5em 1.5em; /* Specific to footer */
 }
@@ -82,6 +86,12 @@ h2, p {
 .new_card article {
   height: 12em;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+/* Make the font size bigger */
+#gerry-longneck {
+  color: #81E3A1;
+  font-size: 2em; 
 }
 
 /* Styles for the image in the article */
@@ -101,4 +111,9 @@ hr {
 
 .card article, .new_card article{
   color:#ccc
+}
+
+/* fix padding so descriptive text is more centered */
+article{
+  padding: 5px;
 }
