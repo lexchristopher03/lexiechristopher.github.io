@@ -1,0 +1,15 @@
+p{
+    color:red;
+}
+
+div{
+    border-style:dashed;
+    border-color: red;
+    padding: 30px;
+    margin: 30px;
+}
+
+#first_div{
+    position: relative;
+    
+}
