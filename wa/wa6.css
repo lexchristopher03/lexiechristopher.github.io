@@ -1,0 +1,124 @@
+body{
+    background-image: url("/wa/img/USWNT.jpeg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+.content-boxes{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10px auto auto;
+    grid-column-gap: 10px;
+    margin-top: 0px;
+}
+
+/* .olympics_logo{
+    border-image: url("/wa/img/olympicsLogo.png");
+} */
+
+
+.overlay_team{
+    grid-column-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 35px; 
+    width: 140px;
+    background-color: rgba(255, 255, 255, 100);
+    padding: 4px;
+    position: relative;
+    border-radius: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+
+.overlay_score{
+    grid-column-start: 3;
+    grid-row-end: 2;
+    /* display: grid; */
+    height: 50px;
+    width: 70; 
+    background-color: lightblue;
+    padding: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-size: 30px; 
+ } 
+
+
+.score-left {
+    margin-right: 190px;           /* Space between the score and the dash */
+    /* Add any additional styles for the left score if needed */
+}
+
+.score-right {
+    margin-left: 5px;            /* Space between the dash and the right score */
+    /* Add any additional styles for the right score if needed */
+}
+
+.olympics_logo{
+    position: absolute;
+    bottom: 0px;
+    top: 13px; 
+    left: 1220px; 
+    width: 30px; 
+    height: auto;
+    z-index: 9999;
+
+}
+
+.usa_flag{
+    position: absolute;
+    bottom: 0px;
+    top: 5px; 
+    left: 800px; 
+    width: 32px; 
+    height: auto;
+    z-index: 9999;
+} 
+
+.brazil_flag{
+    position: absolute;
+    bottom: 0px;
+    top: 10px; 
+    left: 990px; 
+    width: 60px; 
+    height: auto;
+    z-index: 9999;
+}
+
+.nbc_logo{
+    position: absolute;
+    bottom: 0px;
+    top: 580px; 
+    left: 1200px; 
+    width: 150px; 
+    height: auto;
+    z-index: 9999;
+}
+
+.score{
+    position: absolute;
+    bottom: 0px;
+    top: 0px; 
+    left: 500px; 
+    width: 500px; 
+    height: auto;
+    z-index: 9999;
+}
