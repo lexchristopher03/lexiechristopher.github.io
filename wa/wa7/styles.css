@@ -1,0 +1,86 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  article{
+    /* article 60% of width */
+    flex: 1 1 60%;
+  }
+
+  aside{
+    /* sidebar 35% of width */
+    flex: 1 1 35%;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top:0;
+    /* make it stay ontop of main content */
+    z-index: 1000;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+  .photos{
+    display: grid;
+    /* two smae columnc */
+    grid-template-columns: repeat(2,1fr);
+    gap: 1px;
+  }
+
+  .photos img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+      /* space between pic/text */
+      margin: 0 20px 20px 0;
+  }
