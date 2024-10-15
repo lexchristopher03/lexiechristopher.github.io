@@ -1,0 +1,81 @@
+/* body{
+    margin: 0;
+} */
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    height: 40px;
+
+} */
+
+
+/* li{
+    /* display all elements on the same line */
+    /* display: inline; */
+    /* float: right; */
+    /* margin-top: 10px; */
+/* } */ 
+
+/* li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-family: "Teko", sans-serif;
+    
+} */
+
+/* li a:hover{
+    background-color: darkgrey;
+    
+} */
+/* styling for horizontal navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px; /* this value changes the height of our navbar */
+    overflow: hidden;
+    background-color: #333; /* background color of the navbar */
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    margin: 0;
+}
+
+li {
+    display: inline; /* This ensures the navbar is horizontal */
+}
+
+li a {
+    color: white; /* text color of the navbar links */
+    font-family: "Protest Strike", sans-serif;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none; /* get rid of underline */
+    transition: color 1s, font-size 1s; /* transition for hover effect */
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: #111; /* background color of the navbar when hovering over a link */
+    font-size: 20px; /* enlarge the font size on hover */
+}
+
+li a:active {
+    background-color: white;
+    color: black;
+}
+
+/* media query */
+@media screen and (max-width: 480px) {
+    ul {
+        flex-direction: column;
+    }
+    li a {
+        width: 100vw;
+    }
+}
+
