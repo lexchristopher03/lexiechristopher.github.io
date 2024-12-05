@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="story.css">
+    <title>Silly Story Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Silly Story Generator</h1>
+        <div class="input-group">
+            <label for="customname">Enter Custom Name:</label>
+            <input id="customname" type="text" placeholder="Type your name here..." />
+        </div>
+        <div class="radio-group">
+            <label for="us">US</label>
+            <input id="us" type="radio" name="ukus" value="us" checked />
+            <label for="uk">UK</label>
+            <input id="uk" type="radio" name="ukus" value="uk" />
+        </div>
+        <button class="randomize">Generate Random Story</button>
+        <p class="story"></p>
+    </div>
+    <script src="story.js"></script>
+</body>
+</html>

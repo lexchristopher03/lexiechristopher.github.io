@@ -1,0 +1,57 @@
+// Function to parse and display all projects
+function parseData(data) {
+    document.getElementById("projects").innerHTML = ""; // Clear existing projects before displaying new ones
+    data.projects.forEach(project => {
+        // Dynamically create HTML for each project and display it
+        document.getElementById("projects").innerHTML += `
+            <a href="/${project.subdomain}.html">
+                <div class="project" id="${project.subdomain}" style="display: flex;">
+                    <div class="projimg">
+                        <img src="${project.image[0]}" alt="${project.name}">
+                    </div>
+                    <div class="description">
+                        <h2>${project.name}</h2>
+                        <p class="subtitle">${project.subtitle}</p>
+                        <p>${project.abstract}</p>
+                    </div>
+                </div>
+            </a>`;
+    });
+}
+
+// Handling button clicks for filtering
+document.querySelectorAll("#buttons button").forEach(button => {
+    button.addEventListener("click", (e) => {
+        const category = e.target.value;
+        console.log(`Button clicked: ${category}`);
+        sortProjects(category);  // Call sort/filter function based on selected button
+    });
+});
+
+// Function to sort/filter projects based on category
+function sortProjects(button) {
+    console.log(`Sorting for category: ${button}`);
+    
+    // First, show all projects by default
+    proj.projects.forEach(project => {
+        document.getElementById(project.subdomain).style.display = "flex";
+    });
+
+    // If the "clear" button is clicked, reset and show all projects
+    if (button === "clear") {
+        console.log("Clearing filter, displaying all projects.");
+        return;
+    }
+
+    // Filter projects based on the selected category
+    proj.projects.forEach(project => {
+        // Check if the project has the selected category
+        if (project.category.includes(button)) {
+            document.getElementById(project.subdomain).style.display = "flex";  // Show matching project
+        } else {
+            document.getElementById(project.subdomain).style.display = "none";   // Hide non-matching project
+        }
+    });
+}
+
+

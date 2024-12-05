@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vw;
+    text-align: center;
+}
+
+#projects a {
+    text-decoration: none !important;
+    color: #416788;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    border: .75px;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 15px 20px;
+}
+
+.project img {
+    width: 10vw;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#buttons button, .home-button, .resume-button {
+    margin: 10px;
+    background-color: #7389AE; /* Static color */
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    text-decoration: none; /* Remove the underline */
+    display: inline-block; /* Ensure it behaves like a button */
+    text-align: center; /* Center the text inside the link */
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effects */
+}
+
+/* Hover state for buttons */
+#buttons button:hover, .home-button:hover, .resume-button:hover {
+    background-color: #afc7db; /* Hover color */
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+
+/* .skills-button {
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+} */
+
+.resume-button {
+    position: absolute; 
+    top: 10px;
+    right: 0px;
+}
+
+.home-button {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+/* make clear button different color so people know its not a subject lol */
+#buttons button[value="clear"] {
+    background-color: #91ded4; 
+    color: white;
+}
+
+#buttons button[value="clear"]:hover {
+    background-color: #81D2C7; 
+    transform: scale(1.05); 
+}
+
+body h1 {
+    color: #416788;
+    text-align: center;
+    border-radius: 2%;
+    font-size: 3rem; 
+    font-weight: bold;
+}
+
+
+
+
+
+body h3 {
+    color: #416788;
+    text-align: center;
+    font-size: 2rem;
+} 
+
+/* About Section */
+#about {
+    background-color: #416788;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    /* width: 100vw; */
+}
+
+
+#about .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px; /* Adds space between the image and text */
+}
+
+
+
+ .profile-image img {
+    width: 400px;  
+    height: 400px; 
+    object-fit: cover;
+    border-radius: 10%; 
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 40px; 
+} 
+
+
+
+.about-text {
+    max-width: 700px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #f4f4f9;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #f4f4f9;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* #7389AE */
+#projects-wrapper {
+    /* #416788 */
+    background-color: #416788 ; 
+    padding: 20px 0; 
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 20vw;
+    text-align: center;
+}
+
+
+
+
+
+.slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slides-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.slide.active {
+    display: block;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+.pdf-container {
+    width: 100%;
+    height: 90vh; 
+}
+
+.pdf-container embed {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.description {
+    color: #f4f4f9;
+    background-color: #7389AE;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.description:hover {
+    background-color: #afc7db;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px #416788;
+    color: #416788;
+}
+
+/* Reset buttons' hover state */
+#buttons button, .home-button, .resume-button {
+    background-color: #416788 ; /* Static color */
+}
+
+/* Hover effect for all buttons */
+#buttons button:hover, .home-button:hover, .resume-button:hover {
+    background-color: #afc7db;
+    color: #7389AE;
+    transform: scale(1.05);
+}
+
+
+/* group project live link */
+/* Container to center the link */
+.center-container {
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Centers the content vertically */
+    margin-top: 20px;  /* Optional: Adds space above */
+}
+
+/* Style for the link */
+.group-website-link {
+    color: #416788;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #416788;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.group-website-link:hover {
+    background-color: #afc7db;
+    color: white;
+}
+

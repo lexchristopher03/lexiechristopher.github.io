@@ -1,0 +1,75 @@
+
+{
+
+    "projects":[
+    {
+        "name": "Random Comic Generator",
+        "subdomain": "project_one",
+        "subtitle": "Random Comic Generator with images",
+        "category":["web"],
+        "description": "For this assingment, I extended an in-class project to build an xkcd machine that displays a random comic between 1 and 3000 when a button is clicked. I used a proxy service to access the xkcd API and displayed the comic's image, title, alt text, and publication date, all of which updated each time the button was pressed.",
+        "image": ["projIMG/comic.png", "projIMG/comic2.png"],
+        "mainimg": "projIMG/comic.png"
+        
+        
+    }
+    ,
+    {
+        "name": "Image Gallery",
+        "subdomain": "project_two",
+        "subtitle": "image carousel that lets users navigate through images and adjust the brightness ",
+        "category":["web"],
+        "description": "For this assignment, I developed an image carousel that allows users to navigate through images by clicking on them, with the selected image becoming the main display. Additionally, I incorporated a feature that enables users to adjust the brightness of the selected image by clicking a button located in the top-left corner of the image gallery.",
+        "image": ["projIMG/photoGallery1.png", "projIMG/photoGallery2.png", "projIMG/photoGallery3.png", "projIMG/photoGallery4.png",
+         "projIMG/photoGallery5.png"],
+        "mainimg": "projIMG/comic.png"
+        
+        
+    }
+    ,
+    {
+        "name": "Colorado Symphony Website",
+        "subdomain": "project_three",
+        "subtitle": "Group project where we designed a website for the Colorado Symphony",
+        "category":["web"],
+        "description": "For this group project, I helped design a website for the Colorado Symphony. The site included at least four pages (landing page, schedule, FAQ, and contact/about) with a navigation bar, and followed accessibility best practices. It featured the provided copy and images, and was made responsive using media queries for both mobile and laptop screens. I ensured the design was cohesive, readable, and functional, with well-organized, commented code and no broken links.",
+        "image": ["projIMG/gWebsite.png", "projIMG/gWebsite2.png"],
+        "mainimg": "projIMG/comic.png"
+          
+    }
+    ,
+    {
+        "name": "Fictional Food Prodect",
+        "subdomain": "project_four",
+        "subtitle": "fictional food/beverage product packaging design, and presentation. ",
+        "category":["text"],
+        "description": "For this project, I created a fictional food or beverage product packaging design based on my personal branding. I developed a 5-page PDF that included a moodboard with food packaging inspirations, content featuring my personal traits and skills presented creatively as product information, and a flat mockup of the packaging. Additionally, I applied my design to 3D product renderings using Adobe Dimension to showcase how the final packaging would look. The focus was on communicating information effectively, maintaining a consistent theme, and ensuring the design was visually appealing.",
+        "image": ["projIMG/Artboard 3.png", "projIMG/Artboard 4.png", "projIMG/Artboard 6.png", "projIMG/Artboard 1.png","projIMG/Artboard 2.png"],
+        "mainimg": "projIMG/comic.png"
+        
+    }
+    ,
+    {
+        "name": "Colorado Symphony Poster Mailer",
+        "subdomain": "project_five",
+        "subtitle": "Informational poster mailer (printed and folded) with a provided concert schedule for the Colorado Symphony.",
+        "category":[ "text"],
+        "description": "For this project, I created an informational poster mailer for the Colorado Symphony concert schedule, designed in a 10in x 16in tabloid format, folded into eighths. The design was typographic, using two typefaces and three spot colors, with one panel dedicated to mailing information. I ensured the inside was a cohesive, expressive poster and the outside was visually engaging while keeping the address panel functional for mailing.",
+        "image": ["projIMG/symphonyFront.png", "projIMG/symphonyBack.png"],
+        "mainimg": "projIMG/comic.png"
+        
+    }
+    ,
+    {
+        "name": "Song Lyric Accordian",
+        "subdomain": "project_six",
+        "subtitle": "Printed accordion book that typographically expresses a song lyric",
+        "category":[ "text"],
+        "description": "For this project, I created a typographic composition based on a meaningful song of my choosing, Colors by Black Pumas, using no more than two typefaces and a limited color palette of black, white, and one spot color. I carefully arranged the text across 8–12 pages, focusing on scale, placement, and pacing to evoke emotion and convey the poem’s theme. The design was entirely typographic, with minimal shapes, ensuring precision in layout and craftsmanship.",
+        "image": ["projIMG/accordian1.png", "projIMG/accordian2.png", "projIMG/accordian.png"],
+        "mainimg": "projIMG/comic.png"
+        
+    }
+
+]
+}

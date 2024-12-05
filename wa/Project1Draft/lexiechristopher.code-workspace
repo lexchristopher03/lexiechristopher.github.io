@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "lexchristopher_css_repo",
+			"path": "../../lexchristopher_css_repo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lexiechristopher"
+	}
+}
