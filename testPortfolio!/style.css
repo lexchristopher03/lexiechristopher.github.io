@@ -159,11 +159,11 @@ body h3 {
     margin-bottom: 20px;
 }
 /* #7389AE */
-#projects-wrapper {
-    /* #416788 */
-    background-color: #416788 ; 
+/* #projects-wrapper { 
+    background-color: #416788; 
     padding: 20px 0; 
-}
+    border-radius: 5px; 
+  }   */
 
 #projects {
     display: flex;
