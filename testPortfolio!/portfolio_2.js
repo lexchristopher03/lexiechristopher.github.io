@@ -29,20 +29,6 @@ function findProjectInJSOn(projects){
 }
 
 
-// function buildPage(project){
-//     console.log(project);
-//     // how to build page- add onto this
-//     // project- main section on project_one.html page
-//     // name, image carossel, main description(description)
-//     document.getElementById("project").innerHTML += 
-//     `<h1>${project.name}</h1>
-
-//     <div class="description">
-//         <p>${project.description}</p>
-//     </div>
-//     <div class="
-//     `;
-// }
 
 function buildPage(project) {
     console.log(project);
@@ -82,17 +68,20 @@ function setupSlideshow() {
     const nextBtn = document.querySelector(".next");
     let currentSlide = 0;
 
+    // function to start slideshow with current image it's on from home page
     function showSlide(index) {
         slides.forEach((slide, i) => {
             slide.classList.toggle("active", i === index);
         });
     }
 
+    // event listener for previous slide
     prevBtn.addEventListener("click", () => {
         currentSlide = (currentSlide - 1 + slides.length) % slides.length;
         showSlide(currentSlide);
     });
 
+    // event listener for next slide
     nextBtn.addEventListener("click", () => {
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);
