@@ -1,0 +1,66 @@
+
+body {
+    /* make bg gradient */
+    background: linear-gradient(to bottom, #50abf6, #aed5fc); 
+
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+
+.about-container img {
+    width: 100%; 
+    max-width: 450px; 
+    height: auto;
+    border-radius: 10px;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    margin-bottom: 20px;
+}
+
+/* Center Image */
+.center-image {
+    width: 450px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Side Images, make smaller */
+.side-image {
+    width: 300px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-description {
+    text-align: center; 
+    font-size: 18px; 
+    font-weight: 500;
+    max-width: 700px; 
+    margin: 10px auto;
+    color: #ffffff; 
+    border: 3px solid #e3baf3; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: #bf4af5; 
+}
