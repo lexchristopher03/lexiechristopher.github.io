@@ -1,0 +1,48 @@
+
+
+h1 {
+    color: #d9534f; 
+}
+
+h2 {
+    color: #0275d8; 
+}
+
+p {
+    color: #0d4050;
+}
+
+ol {
+    border: 6px solid #5bc0de;
+  }
+  
+ul {
+    border: 6px solid #5bc0de;
+  }
+
+ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+  }
+
+hr {
+    border: 1px solid #5bc0de;
+}
+
+dl {
+    color: #d9534f;
+    margin: 0.5em 0;
+  }
+  
+  dt {
+    font-weight: bold;
+    color: #0275d8;
+  }
+
+strong {
+    color: #d9534f;
+  }
+
+em {
+    color: #d9534f;
+  }
