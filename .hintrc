@@ -1,5 +1,14 @@
 {
   "extends": [
     "development"
-  ]
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-roles": "off"
+      }
+    ]
+  }
 }
