@@ -1,0 +1,127 @@
+body {
+    background: rgb(127, 232, 113);
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  
+  /*
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  */
+  
+  h1,
+  h2,
+  h3 {
+    font-family: serif;
+    font-weight: normal;
+    padding-bottom: 0.6em;
+  }
+  
+  h2 {font-size:1.25em;}
+  h3 {font-size:1.1em;}
+  
+  p {
+    margin-bottom: 1.8em;
+    line-height: 1.8em;
+  }
+  
+  header,
+  nav,
+  main,
+  aside,
+  footer {
+    padding: 1.5em;
+    border: 1px black solid;
+  }
+  
+  header,
+  footer {
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: Rebeccapurple;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns:
+     1fr       2fr       1fr;
+    grid-template-areas:
+    "heady     heady     heady"
+    "navvy     navvy     navvy"
+    "aside1    mainy     aside2"
+    "aside1    mainy     aside2"
+    "aside1    mainy     aside2"
+    "footy     footy     footy";
+  }
+  
+  header {grid-area: heady; background:rgb(53, 114, 56);}
+  nav {grid-area: navvy; background:Peachpuff;}
+  main {grid-area: mainy; background: powderblue; max-height: 100%;}
+  #aside1 {grid-area: aside1; background: mintcream;}
+  #aside2 {grid-area: aside2; background: lavender;}
+  footer {grid-area: footy; background: lightsalmon;}
+  
+  nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  }
+  
+  nav ul li {
+    list-style: none
+  }
+  
+  @media screen
+    and (min-width: 641px)
+    and (max-width: 900px)  {
+  .container {
+  grid-template-columns:
+     1fr 1fr;
+  grid-template-areas:
+    "heady heady"
+    "navvy navvy"
+    "mainy mainy"
+    "aside1 aside2"
+    "footy footy";
+  }
+  }/* end tablet media query */
+  
+  @media screen
+    and (max-width: 640px)  {
+  .container {
+  grid-template-columns:
+     1fr;
+  grid-template-areas:
+    "heady"
+    "mainy"
+    "aside1"
+    "aside2"
+    "navvy"
+    "footy";
+  }
+  
+  nav ul {
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 1px black solid;
+    background: white;
+  
+  }
+  
+  
+  
+  }  /* end mobile media query */
+  

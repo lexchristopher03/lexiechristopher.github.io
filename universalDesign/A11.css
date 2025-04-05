@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+body {
+    background-color: #f3f7fc; /* light blue-ish background */
+  }
+  
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+    background-color: #64bcff; /* white form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+fieldset {
+    background-color: #78c1f8; /* light gray */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+input.reqfield {
+    background-color: #d4dafe; /* light yellow */
+  }
+  
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+/* select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+  color: #FFF !important;
+  background-color: #adfff1 !important;
+} */
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: #e0f7fa; /* light teal */
+}
+
+
+
+/* end of form css */
+	
